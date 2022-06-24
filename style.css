@@ -111,6 +111,7 @@ align-items: center;
     .container{
         margin-top: 0px;
         transform: scale(.7);
+        overflow: hidden;
     }
     
 
