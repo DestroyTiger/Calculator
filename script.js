@@ -11,11 +11,11 @@ window.addEventListener("keyup", function (event) {
         boxanswer.value = boxanswer.value.replaceAll(",", "");
         boxanswer.value = boxanswer.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
-    if (event.key === "Enter") {
+    else if (event.key === "Enter") {
         sumall();
 
     }
-    if (event.key == "Backspace") {
+    else if (event.key == "Backspace") {
         clearone();
 
 
